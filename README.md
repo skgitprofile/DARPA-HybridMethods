@@ -25,3 +25,48 @@ The team includes the following graduate students and postdocs
         <li>Bryce Harrop (PNNL)</li>
         <li>Shixuan Zhang (PNNL)</li>
      </ul>
+
+# Project Summary
+The governing equations of climate and weather prediction chaotic, non-linear and multiscale in nature. This is partly due to the underlying
+  turbulent fluid motion which is strongly coupled with other multi-physics processes such as convection, particle-transport, sea-ice interaction
+  etc. The governing equations of some of these interactions are well known while others are difficult to derive from first principles.
+  The unknown parts are often parametrized emperiacally. This physics based approach allows for simulation of
+  the climate system using high performance codes (HPC) on state-of-the-art supercomputers. Fully resolved simulations
+  are prohibively expensive due to the large degrees of freedom that are exicted. Therefore,  
+  high fidelity accurate simulations are limited to short time windows. Although, coarse grids can be used to 
+  simulate the climate on the fastest supercomputers available today, their accuracy is severely delpleted due
+  the absence (or inaccurate models) of sub-grid scale processes that interact with atmospheric circulation. Our project
+  employs techniques from data assimilation and 
+  machine learning to learn the correction for the coarse-resolution simulation with respect to 
+  high-resolution simulation. The application of this correction to coarse models improves their predictions
+  and makes them comparable to the high-resolution counterpart. An additional goal is to develop methods
+  that require minimal changes to the highly scalable HPC solvers.
+
+We are developing our methods by studying the reduced problem of Quasigeostrophic (QG) turbulence. We are exploring
+   the use of classical methods such as LSTM and recently developed operator learning methods, specifically
+   DeepONet. The code and tutorials for employing DeepONet can be found 
+   <a href="https://deepxde.readthedocs.io/en/latest/"> here </a>. An important feature of our approach is that
+   the ML corrections are implemented in post-processing of data from coarse simulation rather than online. This requires
+   no changes to the solver. The methods will then be employed on data from a full
+   climate simulation using DOE Exascale Earth System Model (E3SM). The documentation for E3SM can be found 
+   <a href="https://e3sm.org/">here</a>.
+   
+# Links to data and documentation
+The problem description and outline of the proposal can be found in <a href="reports/darpa_milestone_1.pdf"> Milestone Report 1</a>.
+  
+Details on hybrid methodology can be found in <a href="reports/darpa_milestone_2.pdf"> Milestone Report 2</a>.
+
+The specific dataset for QG Model is available <a href="data/">here</a>. The code for generating this dataset will
+soon be available here. The LSTM implementation of the coarse model correction will be made available here. 
+The The datasets from E3SM will soon be made
+  available here. 
+  
+  
+# Relevant Publications  
+  For previous work using this methodology, see 
+<a href="https://sandlab.mit.edu/index.php/publications/papers-by-topic/191-physics-informed-machine-learning">
+Sand Lab </a>
+within Department of Mechanical Engineering at Massachusetss Institute of Technology
+
+Any publications from this project will be linked below
+
