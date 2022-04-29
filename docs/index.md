@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+# Hybrid Methods for Climate Systems
+This project aims to develop coarse-scale and data-informed simulation methods that can accurately predict 
+  statistical features of climate systems. The goal is to study long timescale features of climate dynamics 
+  reliably without the use of expensive high resolution simulations, which are intractable over decadal timescales
+  
+  This work is funded by Defense Advanced research Projects Agency, as part of the AI-Assited Climate Tipping-point Modelling program. 
 
-You can use the [editor on GitHub](https://github.com/skgitprofile/DARPA-HybridMethods/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## TEAM
+This project is a collaboration between Massachusetts Institute of Technology,
+  Brown University, Pacific Northwest National Laboratory. The PIs at each organisation are 
+  <ul>
+    <li><a href="http://meche.mit.edu/people/faculty/sapsis@mit.edu"> Themistoklis Sapsis </a></li>
+    <li><a href="https://www.brown.edu/research/projects/crunch/george-karniadakis"> George Karniadakis </a></li>
+    <li><a href="https://www.pnnl.gov/people/lai-yung-ruby-leung"> Lai-yung (Ruby) Leung </a></li>
+  </ul>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The team includes the following graduate students and postdocs
+      <ul>
+        <li>Alexis Charalampopoulos (MIT)</li>
+        <li>Alireza Mojahed (MIT)</li>
+        <li>Ethan Pickering (MIT)</li>
+        <li>Sualeh Khurshid (MIT)</li>
+        <li>Aniruddha Bora (Brown)</li>
+        <li>Khemraj Shukla (Brown)</li>
+        <li>Bryce Harrop (PNNL)</li>
+        <li>Shixuan Zhang (PNNL)</li>
+     </ul>
 
-### Markdown
+## Project Summary
+The governing equations of climate and weather prediction are chaotic, non-linear and multiscale in nature. This is partly due to the underlying
+  turbulent fluid motion which is strongly coupled with other multi-physics processes such as convection, particle-transport, sea-ice interaction
+  etc. The governing equations of some of these interactions are well known while others are difficult to derive from first principles.
+  The unknown parts are often parametrized empiriacally. This physics based approach allows for simulation of
+  the climate system using high performance codes (HPC) on state-of-the-art supercomputers. Fully resolved simulations are prohibively expensive 
+  due to the large degrees of freedom that are exicted. Therefore,  high fidelity accurate simulations are limited to short time windows. Although, 
+  coarse grids can be used to simulate the climate on the fastest supercomputers available today, their accuracy is severely delpleted due
+  to the absence of sub-grid scale processes (or inaccurate models) that interact with atmospheric circulation. Our project
+  employs techniques from data assimilation and machine learning to learn the correction for the coarse-resolution simulation with respect to 
+  high-resolution simulation. The application of this correction to coarse models improves their predictions
+  and makes them comparable to the high-resolution counterpart. An additional goal is to develop methods
+  that require minimal changes to the highly scalable HPC solvers.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We are developing our methods by studying the reduced problem of Quasigeostrophic (QG) turbulence. We are exploring
+   the use of classical methods such as LSTM and recently developed operator learning methods, specifically
+   DeepONet. The code and tutorials for employing DeepONet can be found 
+   <a href="https://deepxde.readthedocs.io/en/latest/"> here </a>. An important feature of our approach is that
+   the ML corrections are implemented in post-processing of data from coarse simulation rather than online. This requires
+   no changes to the solver. The methods will then be employed on data from a full
+   climate simulation using DOE Exascale Earth System Model (E3SM). The documentation for E3SM can be found 
+   <a href="https://e3sm.org/">here</a>.
+   
+## Links to data and documentation
+The problem description and outline of the proposal can be found in <a href="../reports/darpa_milestone_1.pdf"> Milestone Report 1</a>.
+  
+Details on hybrid methodology can be found in <a href="../reports/darpa_milestone_2.pdf"> Milestone Report 2</a>.
 
-```markdown
-Syntax highlighted code block
+The specific dataset for QG Model is available <a href="data/">here</a>. The code for generating this dataset will
+soon be available here. The LSTM implementation of the coarse model correction will be made available here. 
+The The datasets from E3SM will soon be made
+  available here. 
+  
+  
+## Relevant Publications  
+  For previous work using this methodology, see 
+<a href="https://sandlab.mit.edu/index.php/publications/papers-by-topic/191-physics-informed-machine-learning">
+SAND Lab </a>
+within Department of Mechanical Engineering at Massachusetss Institute of Technology
 
-# Header 1
-## Header 2
-### Header 3
+Any publications from this project will be linked below
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skgitprofile/DARPA-HybridMethods/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
