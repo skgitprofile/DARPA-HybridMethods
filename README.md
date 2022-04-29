@@ -12,5 +12,16 @@ This project is a collaboration between Massachusetts Institute of Technology,
     <li><a href="http://meche.mit.edu/people/faculty/sapsis@mit.edu"> Themistoklis Sapsis </a></li>
     <li><a href="https://www.brown.edu/research/projects/crunch/george-karniadakis"> George Karniadakis </a></li>
     <li><a href="https://www.pnnl.gov/people/lai-yung-ruby-leung"> Lai-yung (Ruby) Leung </a></li>
-    
-    </ul>
+  </ul>
+
+The team includes the following graduate students and postdocs
+      <ul>
+        <li>Alexis Charalampopoulos (MIT)</li>
+        <li>Alireza Mojahed (MIT)</li>
+        <li>Ethan Pickering (MIT)</li>
+        <li>Sualeh Khurshid (MIT)</li>
+        <li>Aniruddha Bora (Brown)</li>
+        <li>Khemraj Shukla (Brown)</li>
+        <li>Bryce Harrop (PNNL)</li>
+        <li>Shixuan Zhang (PNNL)</li>
+     </ul>
