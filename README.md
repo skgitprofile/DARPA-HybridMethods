@@ -5,7 +5,7 @@ This project aims to develop coarse-scale and data-informed simulation methods t
   
   This work is funded by Defense Advanced research Projects Agency, as part of the AI-Assited Climate Tipping-point Modelling program. 
 
-#TEAM
+# TEAM
 This project is a collaboration between Massachusetts Institute of Technology,
   Brown University, Pacific Northwest National Laboratory. The PIs at each organisation are 
   <ul>
