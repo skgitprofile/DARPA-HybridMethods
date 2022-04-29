@@ -65,7 +65,7 @@ The The datasets from E3SM will soon be made
 # Relevant Publications  
   For previous work using this methodology, see 
 <a href="https://sandlab.mit.edu/index.php/publications/papers-by-topic/191-physics-informed-machine-learning">
-Sand Lab </a>
+SAND Lab </a>
 within Department of Mechanical Engineering at Massachusetss Institute of Technology
 
 Any publications from this project will be linked below
