@@ -30,7 +30,7 @@ The team includes the following graduate students and postdocs
 The governing equations of climate and weather prediction are chaotic, non-linear and multiscale in nature. This is partly due to the underlying
   turbulent fluid motion which is strongly coupled with other multi-physics processes such as convection, particle-transport, sea-ice interaction
   etc. The governing equations of some of these interactions are well known while others are difficult to derive from first principles.
-  The unknown parts are often parametrized emperiacally. This physics based approach allows for simulation of
+  The unknown parts are often parametrized empiriacally. This physics based approach allows for simulation of
   the climate system using high performance codes (HPC) on state-of-the-art supercomputers. Fully resolved simulations
   are prohibively expensive due to the large degrees of freedom that are exicted. Therefore,  
   high fidelity accurate simulations are limited to short time windows. Although, coarse grids can be used to 
