@@ -27,7 +27,7 @@ The team includes the following graduate students and postdocs
      </ul>
 
 # Project Summary
-The governing equations of climate and weather prediction chaotic, non-linear and multiscale in nature. This is partly due to the underlying
+The governing equations of climate and weather prediction are chaotic, non-linear and multiscale in nature. This is partly due to the underlying
   turbulent fluid motion which is strongly coupled with other multi-physics processes such as convection, particle-transport, sea-ice interaction
   etc. The governing equations of some of these interactions are well known while others are difficult to derive from first principles.
   The unknown parts are often parametrized emperiacally. This physics based approach allows for simulation of
