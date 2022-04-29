@@ -54,7 +54,7 @@ The problem description and outline of the proposal can be found in <a href="dar
   
 Details on hybrid methodology can be found in <a href="darpa_milestone_2.pdf"> Milestone Report 2</a>.
 
-The specific dataset for QG Model is available <a href="data/">here</a>. The code for generating this dataset will
+The specific dataset for QG Model will be available <a href="data/">here</a> soon. The code for generating this dataset will
 soon be available here. The LSTM implementation of the coarse model correction will be made available here. 
 The The datasets from E3SM will soon be made
   available here. 
