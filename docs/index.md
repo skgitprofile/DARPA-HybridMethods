@@ -15,16 +15,16 @@ This project is a collaboration between Massachusetts Institute of Technology,
   </ul>
 
 The team includes the following graduate students and postdocs
-<ul>
-        <li>Alexis Charalampopoulos (MIT)</li>
-        <li>Alireza Mojahed (MIT)</li>
-        <li>Ethan Pickering (MIT)</li>
-        <li>Sualeh Khurshid (MIT)</li>
-        <li>Aniruddha Bora (Brown)</li>
-        <li>Khemraj Shukla (Brown)</li>
-        <li>Bryce Harrop (PNNL)</li>
-        <li>Shixuan Zhang (PNNL)</li>
-</ul>
+<p><ul>
+    <li>Alexis Charalampopoulos (MIT)</li>
+    <li>Alireza Mojahed (MIT)</li>
+    <li>Ethan Pickering (MIT)</li>
+    <li>Sualeh Khurshid (MIT)</li>
+    <li>Aniruddha Bora (Brown)</li>
+    <li>Khemraj Shukla (Brown)</li>
+    <li>Bryce Harrop (PNNL)</li>
+    <li>Shixuan Zhang (PNNL)</li>
+</ul></p>
 
 ## Project Summary
 The governing equations of climate and weather prediction are chaotic, non-linear and multiscale in nature. This is partly due to the underlying
