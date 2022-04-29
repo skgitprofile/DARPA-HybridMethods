@@ -50,9 +50,9 @@ We are developing our methods by studying the reduced problem of Quasigeostrophi
    <a href="https://e3sm.org/">here</a>.
    
 ## Links to data and documentation
-The problem description and outline of the proposal can be found in <a href="../reports/darpa_milestone_1.pdf"> Milestone Report 1</a>.
+The problem description and outline of the proposal can be found in <a href="darpa_milestone_1.pdf"> Milestone Report 1</a>.
   
-Details on hybrid methodology can be found in <a href="../reports/darpa_milestone_2.pdf"> Milestone Report 2</a>.
+Details on hybrid methodology can be found in <a href="darpa_milestone_2.pdf"> Milestone Report 2</a>.
 
 The specific dataset for QG Model is available <a href="data/">here</a>. The code for generating this dataset will
 soon be available here. The LSTM implementation of the coarse model correction will be made available here. 
