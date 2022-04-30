@@ -36,15 +36,16 @@ The governing equations of climate and weather prediction are chaotic, non-linea
   employs techniques from data assimilation and machine learning to learn the correction for the coarse-resolution simulation with respect to 
   high-resolution simulation. The application of this correction to coarse models improves their predictions
   and makes them comparable to the high-resolution counterpart. An additional goal is to develop methods
-  that require minimal changes to the highly scalable HPC solvers.
+  that require minimal changes to the highly scalable HPC solvers. We are exploring the use of classical methods such as LSTM and recently developed operator learning methods, specifically
+   DeepONet. We are developing our methods by studying the reduced problem of Quasigeostrophic (QG) turbulence. The methods will then be employed on data from a full
+   climate simulation using DOE Exascale Earth System Model (E3SM).
 
-We are developing our methods by studying the reduced problem of Quasigeostrophic (QG) turbulence. We are exploring
-   the use of classical methods such as LSTM and recently developed operator learning methods, specifically
-   DeepONet. The code and tutorials for employing DeepONet can be found 
-   <a href="https://deepxde.readthedocs.io/en/latest/"> here </a>. An important feature of our approach is that
-   the ML corrections are implemented in post-processing of data from coarse simulation rather than online. This requires
-   no changes to the solver. The methods will then be employed on data from a full
-   climate simulation using DOE Exascale Earth System Model (E3SM). The documentation for E3SM can be found 
+## Links for code
+
+Code and tutorials for employing DeepONet can be found 
+   <a href="https://deepxde.readthedocs.io/en/latest/"> here </a>.  
+   
+Documentation for E3SM can be found 
    <a href="https://e3sm.org/">here</a>.
    
 ## Links to data and documentation
