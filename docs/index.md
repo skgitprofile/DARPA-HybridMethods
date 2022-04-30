@@ -40,7 +40,7 @@ The governing equations of climate and weather prediction are chaotic, non-linea
    DeepONet. We are developing our methods by studying the reduced problem of Quasigeostrophic (QG) turbulence. The methods will then be employed on data from a full
    climate simulation using DOE Exascale Earth System Model (E3SM).
 
-## Links for code
+## Links for code and documentation
 
 Code and tutorials for employing DeepONet can be found 
    <a href="https://deepxde.readthedocs.io/en/latest/"> here </a>.  
@@ -48,11 +48,12 @@ Code and tutorials for employing DeepONet can be found
 Documentation for E3SM can be found 
    <a href="https://e3sm.org/">here</a>.
    
-## Links to data and documentation
+## Links to Reports
 The problem description and outline of the proposal can be found in <a href="darpa_milestone_1.pdf"> Milestone Report 1</a>.
   
 Details on hybrid methodology can be found in <a href="darpa_milestone_2.pdf"> Milestone Report 2</a>.
 
+## Links for datasets 
 The specific dataset for QG Model will be available <a href="data/">here</a> soon. The code for generating this dataset will
 soon be available here. The LSTM implementation of the coarse model correction will be made available here. 
 The The datasets from E3SM will soon be made
