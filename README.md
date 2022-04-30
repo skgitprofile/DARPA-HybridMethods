@@ -61,10 +61,5 @@ The The datasets from E3SM will soon be made
   
   
 # Relevant Publications  
-  For previous work using this methodology, see 
-<a href="https://sandlab.mit.edu/index.php/publications/papers-by-topic/191-physics-informed-machine-learning">
-SAND Lab </a>
-within Department of Mechanical Engineering at Massachusetss Institute of Technology
-
-Any publications from this project will be linked below
+  E. Pickering, G. Karniadakis, T. Sapsis, Discovering and forecasting extreme events via active learning in neural operators, Submitted, (2022) (19 pages). <a href="https://sandlab.mit.edu/Papers/22_Optimal_NN.pdf">pdf</a>.
 
