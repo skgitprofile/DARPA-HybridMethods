@@ -60,11 +60,7 @@ The The datasets from E3SM will soon be made
   available here. 
   
   
-## Relevant Publications  
-  For previous work using this methodology, see 
-<a href="https://sandlab.mit.edu/index.php/publications/papers-by-topic/191-physics-informed-machine-learning">
-SAND Lab </a>
-within Department of Mechanical Engineering at Massachusetss Institute of Technology
+# Relevant Publications  
+  E. Pickering, G. Karniadakis, T. Sapsis, Discovering and forecasting extreme events via active learning in neural operators, Submitted, (2022) (19 pages). <a href="https://sandlab.mit.edu/Papers/22_Optimal_NN.pdf">pdf</a>.
 
-Any publications from this project will be linked below
-
+L. Lu, P. Jin, G. Pang, Z. Zhang, and G. Karniadakis. Learning nonlinear operators via deeponet based on the universal approximation theorem of operators. Nature Machine Intelligence, 3(3):218–229, 2021. <a href="https://www.nature.com/articles/s42256-021-00302-5">link</a>.
