@@ -63,3 +63,4 @@ The The datasets from E3SM will soon be made
 # Relevant Publications  
   E. Pickering, G. Karniadakis, T. Sapsis, Discovering and forecasting extreme events via active learning in neural operators, Submitted, (2022) (19 pages). <a href="https://sandlab.mit.edu/Papers/22_Optimal_NN.pdf">pdf</a>.
 
+L. Lu, P. Jin, G. Pang, Z. Zhang, and G. Karniadakis. Learning nonlinear operators via deeponet based on the universal approximation theorem of operators. Nature Machine Intelligence, 3(3):218–229, 2021. <a href="https://www.nature.com/articles/s42256-021-00302-5">link</a>.
