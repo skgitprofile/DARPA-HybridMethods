@@ -53,7 +53,7 @@ Problem description and outline of the project: <a href="darpa_milestone_1.pdf">
   
 Details on hybrid methodology: <a href="darpa_milestone_2.pdf"> Milestone Report 2</a>.
 
-Data sets and metrics: <a href="darpa_milestone_3.pdf"> Milestone Report 3</a>.
+Data sets and metrics: <a href="darpa_report_3.pdf"> Milestone Report 3</a>.
 
 ## Links for datasets 
 The specific dataset for QG Model will be available <a href="data/">here</a> soon. The code for generating this dataset will
