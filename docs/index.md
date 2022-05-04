@@ -49,11 +49,11 @@ Documentation for E3SM can be found
    <a href="https://e3sm.org/">here</a>.
    
 ## Links to Reports
-Problem description and outline of the project: <a href="darpa_milestone_1.pdf"> Milestone Report 1</a>.
+Problem description and outline of the project: <a href="https://www.dropbox.com/s/x6eyaylv6a3iuwt/darpa_milestone_1.pdf?dl=0"> Milestone Report 1</a>.
   
-Details on hybrid methodology: <a href="darpa_milestone_2.pdf"> Milestone Report 2</a>.
+Details on hybrid methodology: <a href="https://www.dropbox.com/s/d6el1rgqxe7a8qa/darpa_milestone_2.pdf?dl=0"> Milestone Report 2</a>.
 
-Data sets and metrics: <a href="darpa_report_3.pdf"> Milestone Report 3</a>.
+Data sets and metrics: <a href="https://www.dropbox.com/s/vz5pimvuhw6ptqp/darpa_report_3.pdf?dl=0"> Milestone Report 3</a>.
 
 ## Links for datasets 
 The specific dataset for QG Model will be available <a href="data/">here</a> soon. The code for generating this dataset will
